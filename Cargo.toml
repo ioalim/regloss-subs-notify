@@ -1,0 +1,17 @@
+[package]
+name = "regloss-subs-notify"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+num-format = "0.4.4"
+oauth2 = "4.4.2"
+rand = "0.8.5"
+serde_json = "1.0.115"
+time = "0.3.34"
+tokio = { version = "1.36.0", features = ["rt-multi-thread", "macros"] }
+twitter-v2 = "0.1.8"
+yt-subs = { git = "https://github.com/ioalim/yt-subs" }
